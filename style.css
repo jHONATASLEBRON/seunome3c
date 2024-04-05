@@ -1,6 +1,6 @@
 :root{
     --cor-de-fundo: #104b72;
-    --cor-letra: #351374;
+    --cor-letra: #ffffff;
     --cor-borda: #005a05;
     --cor-borda2: #008f94;
 }
@@ -14,7 +14,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
   }
-  h1 {font-size: 500%;
+  h1 {font-size: 300%;
     color: var(--cor-letra);
 }
 h1 {border-style: solid;
@@ -32,5 +32,13 @@ h1 {padding-left: 20%;
     }
     .parte1 {background-color: var(--cor-borda2);
     }
-    .kinito { align-items: center; }
     
+    
+    .container { 
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+       }
+    h2 {
+        line-height: 30px;
+    }
